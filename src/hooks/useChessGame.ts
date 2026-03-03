@@ -22,6 +22,7 @@ interface UseChessGameReturn extends ChessGameState {
     startGame: (character: CharacterData, difficulty: DifficultyId) => void;
     resetGame: () => void;
     showComment: (message: string, duration?: number) => void;
+    goToDifficultySelect: () => void;
 }
 
 export function useChessGame(): UseChessGameReturn {
@@ -176,6 +177,13 @@ export function useChessGame(): UseChessGameReturn {
     }, [isThinking, phase, selectedSquare, legalMoves, triggerAIMove]);
 
     /**
+     * Navigates to the difficulty selection phase.
+     */
+    const goToDifficultySelect = useCallback(() => {
+        setPhase('select_difficulty');
+    }, []);
+
+    /**
      * Starts a new game with the selected character and difficulty.
      * Resets all game state and switches to the playing phase.
      */
@@ -225,5 +233,6 @@ export function useChessGame(): UseChessGameReturn {
         startGame,
         resetGame,
         showComment,
+        goToDifficultySelect,
     };
 }
