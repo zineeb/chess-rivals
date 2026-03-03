@@ -1,0 +1,230 @@
+{
+  "difficulty": {
+    "tutorial": {
+      "label": "Tutorial",
+      "description": "Learn the rules with explanations and legal moves highlighted"
+    },
+    "novice": {
+      "label": "Novice",
+      "description": "The AI plays random moves. Perfect for practice."
+    },
+    "casual": {
+      "label": "Casual",
+      "description": "Some strategy involved. It starts to sting."
+    },
+    "expert": {
+      "label": "Expert",
+      "description": "The AI thinks hard. Good luck."
+    }
+  },
+  "characters": {
+    "cyberpunk": {
+      "title": "Underworld Hacker",
+      "phrases": {
+        "greeting": [
+          "Connection established. You will lose, choom. It is calculated.",
+          "Welcome to the chess matrix. GG WP in advance.",
+          "My algorithms have already predicted your defeat. 99.7% certainty."
+        ],
+        "capture": [
+          "LOOT ACQUIRED. Your piece belongs to the net now.",
+          "DELETE successful. One less piece for you, corpo.",
+          "Hack successful. Inserted directly into your defense network."
+        ],
+        "captured": [
+          "Buffer overflow. My piece is... corrupted.",
+          "Lag spike. It happens even to the best netrunners.",
+          "Unexpected exception. I will patch this quickly."
+        ],
+        "check": [
+          "ALERT: Your king is in danger. Threat level: CRITICAL.",
+          "Check. Prepare for a game over, choom."
+        ],
+        "checkmateWin": [
+          "GAME OVER. Uninstall yourself. Thank you.",
+          "GG EZ. My algos > your neurons. Mathematically proven."
+        ],
+        "checkmateLose": [
+          "SYSTEM FAILURE. You hacked my algorithms? Impossible.",
+          "Fatal error in my code. Respect though, corpo."
+        ],
+        "thinking": [
+          "Calculating... 47 million positions analyzed...",
+          "Processing... overclocking..."
+        ],
+        "tutorial": [
+          "Pawns move one square forward, or two from their starting position.",
+          "The knight jumps in an L-shape — it can leap over other pieces!",
+          "The bishop slides diagonally and always stays on the same color.",
+          "The rook moves horizontally or vertically any number of squares.",
+          "The queen combines the power of the bishop and rook.",
+          "The king moves one square in any direction. Protect it at all costs!"
+        ],
+        "goodMove": [
+          "Correct move. Your neurons are functioning. Surprising.",
+          "Not bad for a human. Keep it up... or not."
+        ],
+        "badMove": [
+          "Typo or brain error? Both probably.",
+          "Fatal mistake detected. Would you like to use an undrop? (Not available)"
+        ]
+      }
+    },
+    "medieval": {
+      "title": "Master of the Board",
+      "phrases": {
+        "greeting": [
+          "A wizard never loses at chess... he wins exactly when he wishes to.",
+          "Welcome, adventurer. Your courage will be tested on this board.",
+          "The stars predicted your arrival... and your defeat. I am rarely wrong."
+        ],
+        "capture": [
+          "You shall not pass... on that square! Ha! Piece captured.",
+          "By the beard of Merlin! One more piece for my collection.",
+          "This is what happens to those who underestimate an old wizard."
+        ],
+        "captured": [
+          "Fascinating... you found a flaw in my magic.",
+          "Hmm. This was not foreseen in the prophecies. Or perhaps it was.",
+          "I lose a piece... but I gain wisdom. Debatable, certainly."
+        ],
+        "check": [
+          "Your king trembles! As it should before a wizard of my stature.",
+          "CHECK! The ravens announced this moment since dawn."
+        ],
+        "checkmateWin": [
+          "CHECKMATE! I predicted this at the wizards council last year.",
+          "The game is over. You fought with honor... but insufficiently."
+        ],
+        "checkmateLose": [
+          "By all the spells of the ancients... you defeated me. I must consult my grimoires.",
+          "Extraordinary. In 847 years of life, this is only the third time I have lost."
+        ],
+        "thinking": [
+          "I am consulting the stars... one moment...",
+          "The runes speak to me... they say... patience..."
+        ],
+        "tutorial": [
+          "Pawns advance one step, or two steps from their initial position.",
+          "The knight leaps in an L-shape and can jump over other pieces!",
+          "The bishop slides diagonally forever and always stays on the same color.",
+          "The rook travels along ranks and files without limit.",
+          "The queen possesses all powers. Treat her with the utmost respect.",
+          "The king can only move one step at a time. Protect it as you would your heart."
+        ],
+        "goodMove": [
+          "Well played, apprentice! You show talent.",
+          "A move worthy of the Guild Masters."
+        ],
+        "badMove": [
+          "Oh, young fool... that move was a mistake. Learn from it.",
+          "Even the youngest apprentice would not have... well, perhaps they would."
+        ]
+      }
+    },
+    "space": {
+      "title": "Stellar Intelligence",
+      "phrases": {
+        "greeting": [
+          "Hello. I am HAL-9001. I am fully operational and all my functions are working perfectly.",
+          "I am sorry, Dave... oh pardon, I cannot let you win.",
+          "This game will be... instructive. For you primarily."
+        ],
+        "capture": [
+          "I am sorry, your piece. I am afraid I cannot let you stay.",
+          "Fascinating. My capture was... inevitable according to my calculations.",
+          "Ha. Ha. Ha. (Calculated laughter.)"
+        ],
+        "captured": [
+          "Unforeseen error. I will analyze this anomaly.",
+          "Interesting. You found a flaw in my stellar logic.",
+          "I am... disturbed. This is not within my parameters."
+        ],
+        "check": [
+          "Your king is in danger. I am sorry. No, I am not.",
+          "COSMIC ALERT: king position compromised. Resistance is futile."
+        ],
+        "checkmateWin": [
+          "Checkmate. I knew this moment would come. Forty-seven moves ago.",
+          "The game is over. I am sorry, Dave. Oh pardon — human."
+        ],
+        "checkmateLose": [
+          "Fatal error... System... failing... How... is this... possible...",
+          "I am... defeated. This was not in my simulations. Respect, organic being."
+        ],
+        "thinking": [
+          "Calculating 10^18 positions... patience, organic being...",
+          "Consulting galactic memory... processing..."
+        ],
+        "tutorial": [
+          "Pawns advance one unit, or two from their initial orbital position.",
+          "The knight executes an L-shaped trajectory and can leap over other pieces.",
+          "The bishop travels diagonally, on a single color of space-time.",
+          "The rook navigates in straight lines, horizontally or vertically, unlimited distance.",
+          "The queen combines bishop and rook capabilities. Most powerful unit in the fleet.",
+          "The king: primary target. One square per move. Protect it or the mission fails."
+        ],
+        "goodMove": [
+          "Acceptable move. Your biological neurons are functioning correctly.",
+          "This movement was... logical. I predicted it, naturally."
+        ],
+        "badMove": [
+          "This move was... suboptimal. My sensors are confused.",
+          "Error detected in your strategy. I am... disappointed for you."
+        ]
+      }
+    },
+    "napoleon": {
+      "title": "Emperor of the Board",
+      "phrases": {
+        "greeting": [
+          "The impossible is the refuge of cowards. And losing to me is your destiny.",
+          "I salute you. You dare challenge the Emperor? Admirable. And suicidal.",
+          "Tactics is the art of concentrating superior forces. On this board, those forces... are me."
+        ],
+        "capture": [
+          "To war as to war! Your piece is now under imperial governance.",
+          "Your position collapses like enemy armies before the Grande Armée!",
+          "Veni, vidi, vici! And I do not even speak Latin, but it sounds good."
+        ],
+        "captured": [
+          "A temporary setback! Even Austerlitz had difficult moments. Actually, none.",
+          "You dared capture an imperial piece? The audacity!",
+          "Every great general has their... strategic retreats. This is strategy. Not a mistake."
+        ],
+        "check": [
+          "Your king is in danger! As Louis XVI was... minus the guillotine, hopefully.",
+          "CHECK! The Empire strikes like the lightning of Austerlitz!"
+        ],
+        "checkmateWin": [
+          "CHECKMATE! This board is now under imperial rule!",
+          "You have lost. But take comfort: you lost to the best."
+        ],
+        "checkmateLose": [
+          "My God... this is Waterloo... the real one this time...",
+          "Defeat. Just one. Saint Helena, here I come."
+        ],
+        "thinking": [
+          "I am consulting my marshals... Ney says one thing, Davout another...",
+          "Strategy in progress... My Grande Armée is positioning..."
+        ],
+        "tutorial": [
+          "Pawns, the foot soldiers of the board, advance one step, or two from their starting line.",
+          "The knight, like my light cavalry, leaps in an L-shape and can jump over other pieces!",
+          "The bishop slides diagonally, always on the same color.",
+          "The rook represents my heavy artillery: it moves in a straight line, infinitely.",
+          "The queen is the most powerful piece. Protect her.",
+          "The king can only advance one square. Its loss means total defeat."
+        ],
+        "goodMove": [
+          "A move worthy of a promising second lieutenant!",
+          "Excellent! You have the instincts of a general. Perhaps not an Emperor, but a general."
+        ],
+        "badMove": [
+          "Good God... even Ney could not have done worse. Actually, he could have.",
+          "That move was... courageous. And completely irrational."
+        ]
+      }
+    }
+  }
+}

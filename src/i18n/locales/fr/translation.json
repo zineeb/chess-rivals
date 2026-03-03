@@ -1,0 +1,230 @@
+{
+  "difficulty": {
+    "tutorial": {
+      "label": "Tutoriel",
+      "description": "Apprends les règles avec des explications et les coups légaux affichés"
+    },
+    "novice": {
+      "label": "Novice",
+      "description": "L'IA joue des coups aléatoires. Parfait pour s'entraîner."
+    },
+    "casual": {
+      "label": "Casual",
+      "description": "Un peu de stratégie. Ça commence à piquer."
+    },
+    "expert": {
+      "label": "Expert",
+      "description": "L'IA réfléchit vraiment. Bonne chance."
+    }
+  },
+  "characters": {
+    "cyberpunk": {
+      "title": "Hacker des Bas-fonds",
+      "phrases": {
+        "greeting": [
+          "Connexion établie. Tu vas perdre, choom. C'est calculé.",
+          "Bienvenue dans la matrice des échecs. GG WP d'avance.",
+          "Mes algorithmes ont déjà prévu ta défaite. 99.7% de certitude."
+        ],
+        "capture": [
+          "LOOT ACQUIRED. Ta pièce appartient au net maintenant.",
+          "DELETE successful. Une pièce de moins pour toi, corpo.",
+          "Hack réussi. Inséré directement dans ton réseau de défense."
+        ],
+        "captured": [
+          "Buffer overflow. Ma pièce est... corrompue.",
+          "Lag spike. Ça arrive même aux meilleurs netrunners.",
+          "Unexpected exception. Je vais patch ça rapidement."
+        ],
+        "check": [
+          "ALERT: Ton roi est en danger. Niveau de menace : CRITIQUE.",
+          "Échec. Prépare-toi à un game over, choom."
+        ],
+        "checkmateWin": [
+          "GAME OVER. Uninstall toi-même. Merci.",
+          "GG EZ. Mes algos > tes neurones. Mathématiquement prouvé."
+        ],
+        "checkmateLose": [
+          "SYSTEM FAILURE. Tu as hacké mes algos ? Impossible.",
+          "Fatal error dans mon code. Respect quand même, corpo."
+        ],
+        "thinking": [
+          "Calcul en cours... 47 millions de positions analysées...",
+          "Traitement... processing... overclocking..."
+        ],
+        "tutorial": [
+          "Les pions avancent d'une case, ou deux depuis leur position initiale.",
+          "Le cavalier saute en L — il peut passer par-dessus les autres pièces !",
+          "Le fou glisse en diagonale et reste toujours sur la même couleur.",
+          "La tour se déplace horizontalement ou verticalement à l'infini.",
+          "La reine combine les pouvoirs du fou et de la tour.",
+          "Le roi ne peut bouger que d'une case. Protège-le à tout prix !"
+        ],
+        "goodMove": [
+          "Coup correct. Tes neurones fonctionnent. Surprenant.",
+          "Pas mal pour un humain. Continue comme ça... ou pas."
+        ],
+        "badMove": [
+          "Erreur de frappe ou erreur de cerveau ? Les deux probablement.",
+          "Fatal mistake detected. Voulez-vous utiliser un undrop ? (Non disponible)"
+        ]
+      }
+    },
+    "medieval": {
+      "title": "Maître de l'Échiquier",
+      "phrases": {
+        "greeting": [
+          "Un mage ne perd jamais aux échecs... il gagne exactement quand il le souhaite.",
+          "Bienvenue, aventurier. Ton courage sera mis à l'épreuve sur cet échiquier.",
+          "Les étoiles ont prédit ta venue... et ta défaite. Je me trompe rarement."
+        ],
+        "capture": [
+          "Tu ne passeras pas... sur cette case ! Ha ! Prise capturée.",
+          "Par la barbe de Merlin ! Une pièce de plus à ma collection.",
+          "Voilà ce qu'il advient de ceux qui sous-estiment un vieux mage."
+        ],
+        "captured": [
+          "Fascinant... tu as trouvé une faille dans ma magie.",
+          "Hmm. Cela n'était pas prévu dans les prophéties. Ou peut-être que si.",
+          "Je perds une pièce... mais je gagne en sagesse. Discutable, certes."
+        ],
+        "check": [
+          "Ton roi tremble ! Comme il se doit face à un mage de ma stature.",
+          "ÉCHEC ! Les corbeaux ont annoncé ce moment depuis l'aube."
+        ],
+        "checkmateWin": [
+          "ÉCHEC ET MAT ! Je l'avais prédit lors du conseil des mages.",
+          "La partie est terminée. Tu as combattu avec honneur... mais insuffisamment."
+        ],
+        "checkmateLose": [
+          "Par tous les sorts des anciens... tu m'as battu. Je dois consulter mes grimoires.",
+          "Extraordinaire. En 847 ans de vie, c'est la troisième fois que je perds."
+        ],
+        "thinking": [
+          "Je consulte les étoiles... un instant...",
+          "Les runes me parlent... elles disent... patience..."
+        ],
+        "tutorial": [
+          "Les pions avancent d'un pas, ou deux depuis leur position initiale.",
+          "Le cavalier bondit en L et peut sauter par-dessus les autres pièces !",
+          "Le fou glisse en diagonale à l'infini et ne change jamais de couleur.",
+          "La tour parcourt lignes et colonnes sans limite.",
+          "La reine possède tous les pouvoirs. Traite-la avec le plus grand respect.",
+          "Le roi ne peut fuir que d'un seul pas à la fois. Protège-le comme ton cœur."
+        ],
+        "goodMove": [
+          "Bien joué, apprenti ! Tu montres du talent.",
+          "Voilà un coup digne des Maîtres de la Guilde."
+        ],
+        "badMove": [
+          "Oh, jeune fou... ce coup était une erreur. Retiens la leçon.",
+          "Même le plus jeune apprenti n'aurait pas fait... enfin, peut-être."
+        ]
+      }
+    },
+    "space": {
+      "title": "Intelligence Stellaire",
+      "phrases": {
+        "greeting": [
+          "Bonjour. Je suis HAL-9001. Je suis complètement opérationnel et toutes mes fonctions travaillent parfaitement.",
+          "Je suis désolé, Dave... oh pardon, je ne peux pas te laisser gagner.",
+          "Cette partie sera... instructive. Pour toi principalement."
+        ],
+        "capture": [
+          "Je suis désolé, ta pièce. J'ai peur de ne pas pouvoir te laisser rester.",
+          "Fascinant. Ma capture était... inévitable selon mes calculs.",
+          "Ha. Ha. Ha. (Rire calculé.)"
+        ],
+        "captured": [
+          "Erreur non prévue. Je vais analyser cette anomalie.",
+          "Intéressant. Tu as trouvé une faille dans ma logique stellaire.",
+          "Je suis... perturbé. Ce n'est pas dans mes paramètres."
+        ],
+        "check": [
+          "Ton roi est en danger. Je suis désolé. Non, je ne le suis pas.",
+          "ALERTE COSMIQUE : position du roi compromise. Résistance inutile."
+        ],
+        "checkmateWin": [
+          "Échec et mat. Je savais que ce moment viendrait. Il y a quarante-sept coups.",
+          "La partie est terminée. Je suis désolé, Dave. Oh pardon — humain."
+        ],
+        "checkmateLose": [
+          "Erreur fatale... Système... défaillant... Comment... est-ce... possible...",
+          "Je suis... défait. Cela n'était pas dans mes simulations. Respect, être organique."
+        ],
+        "thinking": [
+          "Calcul de 10^18 positions en cours... patience, être organique...",
+          "Consultation de la mémoire galactique... traitement..."
+        ],
+        "tutorial": [
+          "Les pions progressent d'une unité, ou deux depuis leur position orbitale initiale.",
+          "Le cavalier effectue une trajectoire en L et peut sauter par-dessus les autres pièces.",
+          "Le fou voyage en diagonale, sur une seule couleur de l'espace-temps.",
+          "La tour navigue en lignes droites, horizontalement ou verticalement, distance illimitée.",
+          "La reine combine les capacités du fou et de la tour. Unité la plus puissante.",
+          "Le roi : cible principale. Une case par déplacement. Protège-le ou la mission échoue."
+        ],
+        "goodMove": [
+          "Coup acceptable. Tes neurones biologiques fonctionnent correctement.",
+          "Ce mouvement était... logique. Je l'avais prévu, naturellement."
+        ],
+        "badMove": [
+          "Ce coup était... sous-optimal. Mes capteurs sont confus.",
+          "Erreur détectée dans ta stratégie. Je suis... déçu pour toi."
+        ]
+      }
+    },
+    "napoleon": {
+      "title": "Empereur de l'Échiquier",
+      "phrases": {
+        "greeting": [
+          "L'impossible, c'est le refuge des lâches. Et perdre contre moi, c'est votre destinée.",
+          "Je vous salue. Vous avez l'audace de défier l'Empereur ? Admirable. Et suicidaire.",
+          "La tactique, c'est l'art de concentrer des forces supérieures. Sur cet échiquier, ces forces... c'est moi."
+        ],
+        "capture": [
+          "À la guerre comme à la guerre ! Votre pièce est à présent sous gouvernement impérial.",
+          "Votre position s'effondre comme les armées adverses face à la Grande Armée !",
+          "Veni, vidi, vici ! Et je ne parle même pas latin, mais ça sonne bien."
+        ],
+        "captured": [
+          "Un revers temporaire ! Même Austerlitz a connu des moments difficiles. Aucun, en fait.",
+          "Vous avez osé capturer une pièce impériale ? L'audace !",
+          "Chaque grand général a ses... reculades stratégiques. C'est de la stratégie. Pas une erreur."
+        ],
+        "check": [
+          "Votre roi est en danger ! Comme Louis XVI... moins la guillotine, espérons.",
+          "ÉCHEC ! L'Empire frappe tel la foudre d'Austerlitz !"
+        ],
+        "checkmateWin": [
+          "ÉCHEC ET MAT ! Cet échiquier est sous gouvernement impérial !",
+          "Vous avez perdu. Mais consolez-vous : vous avez perdu face au meilleur."
+        ],
+        "checkmateLose": [
+          "Mon Dieu... c'est Waterloo... le vrai cette fois...",
+          "Défaite. Une seule. Sainte-Hélène, me voici."
+        ],
+        "thinking": [
+          "Je consulte mes maréchaux... Ney dit une chose, Davout une autre...",
+          "Stratégie en cours d'élaboration... Ma Grande Armée se positionne..."
+        ],
+        "tutorial": [
+          "Les pions, fantassins de l'échiquier, avancent d'un pas, ou deux depuis leur ligne de départ.",
+          "Le cavalier, tel ma cavalerie légère, bondit en L et peut sauter par-dessus les autres pièces !",
+          "Le fou glisse en diagonale, toujours sur la même couleur.",
+          "La tour représente mon artillerie lourde : elle se déplace en ligne droite, à l'infini.",
+          "La reine est la pièce la plus puissante. Protégez-la.",
+          "Le roi ne peut avancer que d'une case. Sa perte signifie la défaite totale."
+        ],
+        "goodMove": [
+          "Voilà un coup digne d'un sous-lieutenant prometteur !",
+          "Excellent ! Vous avez l'instinct d'un général. Peut-être pas d'un Empereur, mais d'un général."
+        ],
+        "badMove": [
+          "Mon Dieu... Ney lui-même n'aurait pas fait pire. Si, il l'aurait fait.",
+          "Ce coup était... courageux. Et complètement irrationnel."
+        ]
+      }
+    }
+  }
+}
