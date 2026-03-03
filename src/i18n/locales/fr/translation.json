@@ -226,5 +226,22 @@
         ]
       }
     }
+  },
+  "ui": {
+    "selectCharacter": "Choisis ton adversaire",
+    "selectDifficulty": "Choisis ta difficulté",
+    "next": "Suivant",
+    "startGame": "Commencer la partie",
+    "thinking": "Réflexion en cours...",
+    "yourTurn": "À toi de jouer",
+    "check": "Échec !",
+    "checkmate": "Échec et mat !",
+    "draw": "Match nul !",
+    "victory": "Victoire !",
+    "defeat": "Défaite...",
+    "playAgain": "Rejouer",
+    "backToMenu": "Menu principal",
+    "capturedByAI": "Capturées par",
+    "capturedByPlayer": "Tes captures"
   }
 }

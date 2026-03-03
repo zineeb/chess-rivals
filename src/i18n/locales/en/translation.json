@@ -226,5 +226,22 @@
         ]
       }
     }
+  },
+  "ui": {
+    "selectCharacter": "Choose your opponent",
+    "selectDifficulty": "Choose your difficulty",
+    "next": "Next",
+    "startGame": "Start Game",
+    "thinking": "Thinking...",
+    "yourTurn": "Your turn",
+    "check": "Check!",
+    "checkmate": "Checkmate!",
+    "draw": "Draw!",
+    "victory": "Victory!",
+    "defeat": "Defeat...",
+    "playAgain": "Play Again",
+    "backToMenu": "Back to Menu",
+    "capturedByAI": "Captured by",
+    "capturedByPlayer": "Your captures"
   }
 }
