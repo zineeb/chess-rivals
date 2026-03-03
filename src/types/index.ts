@@ -1,3 +1,5 @@
+import type {LucideIcon} from "lucide-react";
+
 export type PieceColor = 'w' | 'b';
 export type PieceType = 'p' | 'n' | 'b' | 'r' | 'q' | 'k';
 
@@ -36,7 +38,7 @@ export interface Character {
     id: ThemeId;
     name: string;
     title: string;
-    emoji: string;
+    icon: LucideIcon;
     phrases: CharacterPhrases;
     theme: Theme;
 }
@@ -44,7 +46,7 @@ export interface Character {
 export interface DifficultyLevel {
     id: DifficultyId;
     label: string;
-    icon: string;
+    icon: LucideIcon;
     description: string;
     depth: number;
 }
